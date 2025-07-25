@@ -6,6 +6,7 @@ import { SignInPage } from './components/SignInPage'
 import { SignUpPage } from './components/SignUpPage'
 import { Navigation } from './components/Navigation'
 import { motion, AnimatePresence } from 'motion/react'
+import { anticipate } from 'motion'
 import { toast, Toaster } from 'sonner'
 
 type Page = 'home' | 'chat' | 'upload' | 'signin' | 'signup'
@@ -104,10 +105,8 @@ export default function App() {
       filter: 'blur(10px)'
     }
   }
-
   const pageTransition = {
-    type: "tween",
-    ease: "anticipate",
+    ease: anticipate,
     duration: 0.4
   }
 
