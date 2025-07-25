@@ -4,7 +4,7 @@ import { Card } from './ui/card'
 import { Upload, Camera, Image, Sparkles, Eye, RefreshCw, Download, Share2, Scan, Zap } from 'lucide-react'
 import { motion, AnimatePresence } from 'motion/react'
 import { Progress } from './ui/progress'
-import { toast } from 'sonner@2.0.3'
+import { toast } from 'sonner'
 
 interface UploadPageProps {
   onProgressUpdate: (type: 'question' | 'image') => void
