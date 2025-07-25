@@ -16,8 +16,9 @@
     "motion": "^12.23.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^0.0.0",
     "sonner": "^2.0.6",
+    "start": "^5.1.0",
     "tailwind-merge": "^2.0.0",
     "typescript": "^4.7.4",
     "web-vitals": "^2.1.4"
