@@ -1,15 +1,17 @@
 import { useState, useEffect } from 'react'
-import { HomePage } from './components/HomePage'
-import { ChatPage } from './components/ChatPage'
-import { UploadPage } from './components/UploadPage'
-import { SignInPage } from './components/SignInPage'
-import { SignUpPage } from './components/SignUpPage'
-import { Navigation } from './components/Navigation'
+import { HomePage } from './components/HomePage.tsx'
+import { ChatPage } from './components/ChatPage.tsx'
+import { UploadPage } from './components/UploadPage.tsx'
+import { SignInPage } from './components/SignInPage.tsx'
+import { SignUpPage } from './components/SignUpPage.tsx'
+import { Navigation } from './components/Navigation.tsx'
 import { motion, AnimatePresence } from 'motion/react'
 import { anticipate } from 'motion'
 import { toast, Toaster } from 'sonner'
 
 type Page = 'home' | 'chat' | 'upload' | 'signin' | 'signup'
+
+
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState<Page>('home')

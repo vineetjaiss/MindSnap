@@ -1,9 +1,9 @@
-import { Button } from './ui/button'
-import { Card } from './ui/card'
+import { Button } from './ui/button.tsx'
+import { Card } from './ui/card.tsx'
 import { Brain, Sparkles, Camera, MessageSquare, Star, Trophy, Target, Zap, Cpu, Database, Globe } from 'lucide-react'
 import { motion } from 'motion/react'
-import { Progress } from './ui/progress'
-import { Badge } from './ui/badge'
+import { Progress } from './ui/progress.tsx'
+import { Badge } from './ui/badge.tsx'
 
 type Page = 'home' | 'chat' | 'upload' | 'signin' | 'signup'
 

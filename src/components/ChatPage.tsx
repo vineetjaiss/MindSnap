@@ -1,9 +1,9 @@
 import { useState, useEffect, useRef } from 'react'
-import { Button } from './ui/button'
-import { Input } from './ui/input'
-import { Card } from './ui/card'
+import { Button } from './ui/button.tsx'
+import { Input } from './ui/input.tsx'
+import { Card } from './ui/card.tsx'
 import { Send, Bot, User, Lightbulb, Sparkles, ThumbsUp, Copy, Volume2, Cpu, Zap } from 'lucide-react'
-import { ScrollArea } from './ui/scroll-area'
+import { ScrollArea } from './ui/scroll-area.tsx'
 import { motion, AnimatePresence } from 'motion/react'
 import { toast } from 'sonner'
 

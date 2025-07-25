@@ -1,7 +1,7 @@
 import { Home, MessageCircle, Upload, Star, Trophy, Zap } from 'lucide-react'
 import { motion } from 'motion/react'
-import { Badge } from './ui/badge'
-import { Progress } from './ui/progress'
+import { Badge } from './ui/badge.tsx'
+import { Progress } from './ui/progress.tsx'
 
 type Page = 'home' | 'chat' | 'upload' | 'signin' | 'signup'
 

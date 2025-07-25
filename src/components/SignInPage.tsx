@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import { Button } from './ui/button'
-import { Input } from './ui/input'
-import { Card } from './ui/card'
-import { Label } from './ui/label'
+import { Button } from './ui/button.tsx'
+import { Input } from './ui/input.tsx'
+import { Card } from './ui/card.tsx'
+import { Label } from './ui/label.tsx'
 import { Brain, Eye, EyeOff, Sparkles, Shield, Cpu } from 'lucide-react'
 import { motion } from 'motion/react'
 
