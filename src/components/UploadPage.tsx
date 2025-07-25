@@ -1,6 +1,6 @@
 import { useState, useRef, useCallback } from 'react'
 import { Button } from './ui/button.tsx'
-import { Card } from './ui/card.tsx
+import { Card } from './ui/card.tsx'
 import { Upload, Camera, Image, Sparkles, Eye, RefreshCw, Download, Share2, Scan, Zap } from 'lucide-react'
 import { motion, AnimatePresence } from 'motion/react'
 import { Progress } from './ui/progress.tsx'
