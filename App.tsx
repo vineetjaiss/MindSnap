@@ -6,7 +6,7 @@ import { SignInPage } from './components/SignInPage'
 import { SignUpPage } from './components/SignUpPage'
 import { Navigation } from './components/Navigation'
 import { motion, AnimatePresence } from 'motion/react'
-import { toast, Toaster } from 'sonner@2.0.3'
+import { toast, Toaster } from 'sonner'
 
 type Page = 'home' | 'chat' | 'upload' | 'signin' | 'signup'
 
