@@ -5,7 +5,7 @@ import { Card } from './ui/card'
 import { Send, Bot, User, Lightbulb, Sparkles, ThumbsUp, Copy, Volume2, Cpu, Zap } from 'lucide-react'
 import { ScrollArea } from './ui/scroll-area'
 import { motion, AnimatePresence } from 'motion/react'
-import { toast } from 'sonner@2.0.3'
+import { toast } from 'sonner'
 
 interface Message {
   id: string
