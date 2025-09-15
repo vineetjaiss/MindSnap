@@ -35,7 +35,7 @@ export function UploadPage({ onProgressUpdate, userProgress }: UploadPageProps) 
       }
       reader.readAsDataURL(file)
     } else {
-      toast.error('⚠️ Invalid data format! Please upload visual digital data!')
+      toast.error(' Invalid data format! Please upload visual digital data!')
     }
   }, [])
 
